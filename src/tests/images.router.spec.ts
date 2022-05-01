@@ -9,7 +9,7 @@ describe("Success cases", function () {
       const response = await request.get(
         "/public/images/thumbnail/test.jpg?width=300&height=300"
       );
-      expect(response.status).toBe(302);
+      expect(response.status).toBe(200);
       done();
     })();
   });
