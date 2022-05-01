@@ -15,7 +15,7 @@ Installation
 
 Testing
 ===========================
-- http://localhost:3000/public/images/thumbnail/(FULL-IMAGE-NAME)?width=500&height=600
+- http://localhost:(SERVER-PORT)/public/images/thumbnail/(FULL-IMAGE-NAME)?width=500&height=600
 - Use ````test-image.html``` file for preview and generate new sizes.
 - To test other images add them to ````public/images/full````
 
